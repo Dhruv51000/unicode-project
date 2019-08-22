@@ -1,0 +1,100 @@
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="atg.css">
+
+</head>
+<body>
+
+<div class="fun" >
+<div class="random">
+<div class="toplogo" >
+<h4>THE OFFICIAL WEBSITE OF<span></br><font size="6">NORTHEAST TOURISM</font></span></h4>
+</div></div>
+<div class="topimage">
+<img src="rhino.jpeg.jpg" height="100" width="100">
+</div>
+</div>
+
+
+<div class="a">
+<nav class="navbar ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+   
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="ne.html">HOME</a></li>
+        
+       <li><a href="atgfinal.html">AT A GLANCE</a></li>
+        <li><a href="toursss.html">TOURS</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+<div class="tp">
+<div class="wrap">
+<div id="slider"><!--ID FOR ALL IMAGES-->
+<div class="slides slide1">
+<div class="text-content"><span><h4>GARBHANGHA FOREST</h4></span></div><!--CLASS FOR TEXT ON SLIDESHOW ,HEADER 4 FOR TEXT SIZE-->
+</div>
+<div class="slides slide2">
+  <div class="text-content"><span><h4>CHANDUBLI LAKE</h4></span></div></div>
+<div class="slides slide3">
+  <div class="text-content"><span><h4>GOLDEN PAGODA</h4></span></div></div>
+  <div class="slides slide4">
+  <div class="text-content"><span><h4>KAZIRANGA NATIONAL PARK</h4></span></div></div>
+  <div class="slides slide5">
+  <div class="text-content"><span><h4>KAMAKHYA TEMPLE</h4></span></div></div>
+  <div class="slides slide6">
+  <div class="text-content"><span><h4>DARGA SHARIF MOSQUE</h4></span></div></div>
+  <div class="slides slide7">
+  <div class="text-content"><span><h4>BRAHMAPUTRA RIVER</h4></span></div></div>
+</div></div></div>
+<div class="site">
+<p>
+ASSAM THE LAND OF THE AHOMS 
+</p>
+</div>
+
+
+
+<script>
+var myIndex = 0;
+ne();
+
+function ne() {
+  var i;
+  var x = document.getElementsByClassName("slides");
+  for (i = 0; i < x.length; i++) {          
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(ne,3500); 
+}
+ </script>
+ </body>
