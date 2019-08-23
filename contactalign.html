@@ -1,0 +1,390 @@
+
+<html>
+
+<head>
+       
+	     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<style>
+
+
+.a{
+  position:absolute;
+  top:16.4%;
+  width:100%;
+  
+  }
+li a:hover{
+  font-size:1.5em;
+  color:black;
+ font-weight:bold;
+
+ z-index:1;
+  
+  }
+  #myNavbar{
+	 
+background-color:black;
+
+
+	  
+  }
+  
+  .icon-bar{
+	  z-index:1;
+	  background-color:black;
+	  
+  }
+  .navbar-toggle{
+	  background-color:white;
+	  
+  }
+  
+  .navbar {
+	background-color:black;
+	color:white;
+
+	  
+  }
+
+  
+  li a{
+    display: block;
+
+  text-decoration: none;
+
+  font-size:1.5em;
+	 font-family:Arial;
+	 z-index:1;
+ font-weight:bold;
+ color:white;
+ 
+background-color:black;
+	
+  
+  }
+  
+  li{
+	      display: block;
+  color: white;
+  text-decoration: none;
+  
+    font-size: 1em;
+	 font-family:Arial;
+	 z-index:1;
+	 background-color:black;
+	  
+  }
+  
+  .navbar{
+background-color:#111;
+}
+  
+  ul
+{
+  list-style-type: none;/*MARGIN AND PADDING FOR UNORDERED LIST*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+background-color:#111;
+color:white;
+}
+
+li {                      /*TO THE LEFT*/
+  float: left;
+}
+  
+  .toplogo{position:absolute;   /*POSITION OF TOP LOGO*/  
+left:125px;
+top:0px;
+color:white;
+font-size:1vh;
+}
+
+
+
+
+  .toplogo{position:absolute;   /*POSITION OF TOP LOGO*/  
+left:125px;
+top:0px;
+color:white;
+}
+
+
+span{                /*COLOR FOR SPAN*/
+color:white;}
+.topimage{           /*POSITION OF TOPIMAGE*/
+position:absolute;
+top:0px;
+left:06px;
+}
+
+
+
+
+
+.s1{
+position:absolute;
+top:170px;
+left:0px;
+right:1100px;
+
+height:100%;
+width:400px;
+}
+.random{
+height:100px;
+width:100%;
+background-color:green;
+}
+
+
+
+.topimage{               /*POSITION OF TOP IMAGE */
+position:absolute;
+left:0px;
+}
+.fun{                        /*ANIMATION FOR TEXT*/
+position:absolute;
+z-index:1;
+left:0px;                
+right:0px;
+animation-name:header;
+animation-duration:3s;
+}
+@keyframes header{
+
+0%{                         /*AT START POSITION FROM LEFT -600PX AFTER 3 SECONDS 0PX  */
+left:-600px;
+}
+100%
+{left:0px;
+} 
+}
+.navbar{
+background-color:#111;
+}
+
+
+
+
+
+
+
+
+
+
+.adjust{
+padding:11% 0 0 0;
+
+}
+
+
+
+
+
+
+
+.contact-form
+{
+    padding:25px 50px;
+}
+
+
+.ab{background-image:url(formbg.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+}
+
+
+.container{
+color:white;
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="fun" ><!--CLASS FOR ANIMATION -->
+<div class="random"><!--CLASS FOR POSITION OF LOGO AND HEADER-->
+<div class="toplogo" >
+<h4>THE OFFICIAL WEBSITE OF<span></br><font size="6">NORTHEAST TOURISM</font></span></h4><!--DIFFERENT FONT SIZE FOR NORTHEAST TOURISM-->
+</div></div>
+<div class="topimage">
+<img src="rhino.jpeg.jpg" height="100" width="100"><!--SIZE OF RHINO IMAGE-->
+</div>
+</div>
+
+
+<div class="a">
+<nav class="navbar "><!--navbar-->
+  <div class="container-fluid"><!--container for navbar-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><!--button to open navbar for less width and linked to id mynavbar-->
+        <span class="icon-bar"></span><!--SYMBOL for collapse-->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+   
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav"><!-- links to different pages of the site--> 
+        <li><a href="ne.html">HOME</a></li>
+        
+       <li><a href="atgfinal.html">AT A GLANCE</a></li>
+        <li><a href="toursss.html">TOURS</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+</div>
+
+
+
+
+
+<div class="adjust">
+<div class="ab">
+<div class="container "><!--CONTAINER -->
+  <h1>Get In Touch</h1><!--HEADER-->
+  
+
+
+  <div class="row"><!--ROWS -->
+    <div class="col-md-6"><!--COLUMNS TO BE USED FOR MEDIUM SIZE SCREEN BE 6 OUT OF 12-->
+      <div class="contact-form">
+        <div class="form-group">
+          <input type='text' placeholder="YourName" onkeypress="return isletter(event)" id="txt" class="form-control" required><!--checks on key press that input is not a number-->
+        </div>
+		  <div class="form-group">
+               <input class="btn btn-primary" onclick="abc()" type="submit" value="EDIT NAME"><!--on clicking edit button it erases the value entered in name-->
+		   
+              </div>
+		
+        <div class="form-group">
+            <input type='PhoneNo' placeholder="YourNumber" maxlength="10"  id="txt1" onkeypress="return isNumberKey(event)" class="form-control"><!--checks on key press that input is only a number-->
+        </div>
+          
+		    <div class="form-group">
+               <input class="btn btn-primary" type="submit" onclick="abcd()" value="EDIT NO"><!--on clicking edit button it erases the value entered in mobileno-->
+              </div>
+          <div class="form-group">
+              <input type='Email' placeholder="YourEmail" id="txt2"  class="form-control" >
+            </div>
+			  <div class="form-group">
+               <input class="btn btn-primary" onclick="abcde()" type="submit" value="EDIT E-mail"><!--on clicking edit button it erases the value entered in E-mail-->
+              </div>
+
+			  <div class="form-group">
+               <input class="btn btn-success" onclick ="allfieldsfilled();return iscorrectemail(event); mobileNo()" id="btn1" type="submit" value="SUBMIT"><!--on clicking submit button it checks if E-mail is valid and all fields are filled i.e:name,email,mobileno-->
+			  
+</div>
+     </div>
+</div>
+
+
+<div class="col-md-6"><!--COLUMNS TO BE USED FOR MEDIUM SIZE SCREEN BE 6 OUT OF 12 -->
+  <div class="follow"><h3> <span class=" fas fa-map-marker-alt"></span> FindUsAt</span></h3><!--logo for location using font-awesome-->
+<h3>14/01<br> NORTHEAST TOURS<br>Ambedkar Nagar<br>Kandivali-West,<br>Mumbai- 400067.</h3></div>
+<br><br><!--next line-->
+  <h3><span class="fa fa-phone"> PhoneNumber</span></h3><!--logo for call using font-awesome-->
+  <h3>+ 91-9821139309<br>+91-9769647425</h3>
+  <br>
+  <h3><span class="fa fa-envelope"></span> E-mail:</h3><!--logo for e-mail using font-awesome-->
+  <h3> DhruvTalati51000@gmail.com</h3>
+<br>
+
+
+<a href="#" ><span class="fab fa-facebook" style="font-size:50px; "></span> </a><!--logo for facebook using font-awesome-->
+<a href="#"><span class="fab fa-youtube" style="font-size:50px; color:red"></span> </a><!--logo for youtube using font-awesome-->
+<a href="#"><span class="fab fa-google-plus" style="font-size:50px ;color:white"></span> </a><!--logo for Google plus using font-awesome-->
+      
+</div>
+</div>
+</div>
+</div>
+<script>
+	  function abc(){                              <!--for  editname button clicked sets the value of txt which is an id to null--> 
+	  
+	  document.getElementById("txt").value="";
+	  }
+	  
+	  	  function abcd(){                         <!--for  edit-mobileno button clicked sets the value of txt1 which is an id to null--> 
+	  
+	  document.getElementById("txt1").value="";
+	  }
+	  	  function abcde(){                        <!--for  edit-e-mail button clicked sets the value of txt2 which is an id to null--> 
+	  
+	  document.getElementById("txt2").value="";
+	  }
+	  
+	 
+
+	 function iscorrectemail(e) {                      <!--checks if email is valid or not by checking the difference in the position of "@" an "." is more than 1--> 
+	   var x = document.getElementById("txt2").value;<!-- takes value of e-mail through id txt2-->
+	   var atpos = x.indexOf("@");                   <!--position of "@"-->
+  var dotpos = x.lastIndexOf(".");                   <!--position of the last "." as there can be more than 1 "."-->
+	  
+	      if(atpos < 1 || (dotpos - atpos < 2))     <!--checking the difference in the position of "@" an "." is more than 1--> 
+    {
+    alert("Please enter a valid e-mail address");   <!--alert is shown that email address is not valid-->
+    return false;
+  
+    }
+	}
+	  function isletter(e){                         <!--allows only nos as input value in mobile-no-->
+	           var charCode =  event.keyCode         <!-- checks the ascii value one by one if it is greater than 47 and less than 58-->
+         if ( (charCode > 47 && charCode < 58)) 
+            e.preventDefault();                           <!--if it is a no than it does not accept it--> 
+			
+			
+return true;
+	  
+	  }
+	  
+    function isNumberKey(e)
+
+      {
+         var charCode =  event.keyCode               <!-- checks the ascii value one by one if it is a no or not-->             
+         if ( (charCode < 48 || charCode > 57))       
+            e.preventDefault();                       <!--if it is a not a no than it does not accept it--> 
+			
+			
+return true;
+      }
+	  
+	  function allfieldsfilled(){                    <!--checks if none of the fields are left blank-->
+	  
+	  
+	  if(document.getElementById("txt").value==""|| document.getElementById("txt1").value==""||document.getElementById("txt2").value=="" )<!-- if any of the ids value is blank i.e null -->
+	  {
+	 
+	  alert("Please fill all the fields");                <!--shows an alert to fill all the fields-->
+	  
+	  }
+	  
+	  }
+document.getElementById("btn1").addEventListener("click",mobileNo);
+function mobileNo(){
+var field=document.getElementById("txt1").value;
+if(field.length!=10)
+{
+alert("Please enter correct no");
+}
+}
+
+	  
+	  
+
+</script>
+
+</body>
+</html>
