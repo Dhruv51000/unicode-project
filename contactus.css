@@ -1,0 +1,196 @@
+
+.a{                           /*position for slides below the navbar ,from top:16.4% and width be 100%*/            
+  position:absolute;
+  top:16.4%;
+  width:100%;
+  
+  }
+li a:hover{                 /*on hovering on the list givse it a bold font and color of text as black z-index:1 gives it a priority over any other 
+                             property having z-index less than 1*/
+  font-size:1.5em;
+  color:black;
+ font-weight:bold;
+
+ z-index:1;
+  
+  }
+  #myNavbar{                            /*background transperent*/
+	 
+background-color:black;
+
+
+	  
+  }
+  
+  .icon-bar{                      /*a dashed line of black color*/
+	  z-index:1;
+	  background-color:black;
+	  
+  }
+  .navbar-toggle{                 /*the box around icon-bar with background-color:white*/
+	  background-color:white;
+	  
+  }
+  
+  .navbar {                       /*the rest of navbar except toggle given background-color:black*/
+	background-color:black;
+	color:white;
+
+	  
+  }
+
+  
+  li a{
+    display: block;
+
+  text-decoration: none;
+
+  font-size:1.5em;
+	 font-family:Arial;
+	 z-index:1;
+ font-weight:bold;
+ color:white;
+ 
+background-color:black;
+	
+  
+  }
+  
+  li{                                 /*no text-decoration font-family: arial and color of text:white*/
+	      display: block;
+  color: white;
+  text-decoration: none;
+  
+    font-size: 1em;
+	 font-family:Arial;
+	 z-index:1;
+	 background-color:black;
+	  
+  }
+  
+  .navbar{
+background-color:#111;
+}
+  
+  ul
+{
+  list-style-type: none;/*MARGIN AND PADDING FOR UNORDERED LIST*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+background-color:#111;
+color:white;
+}
+
+li {                      /*TO THE LEFT*/
+  float: left;
+}
+  
+  .toplogo{position:absolute;   /*POSITION OF TOP LOGO*/  
+left:125px;
+top:0px;
+color:white;
+font-size:1vh;
+}
+
+
+
+
+  .toplogo{position:absolute;   /*POSITION OF TOP LOGO*/  
+left:125px;
+top:0px;
+color:white;
+}
+
+
+span{                /*COLOR FOR SPAN*/
+color:white;}
+.topimage{           /*POSITION OF TOPIMAGE*/
+position:absolute;
+top:0px;
+left:06px;
+}
+
+
+
+
+
+.s1{
+position:absolute;
+top:170px;
+left:0px;
+right:1100px;
+
+height:100%;
+width:400px;
+}
+.random{
+height:100px;
+width:100%;
+background-color:green;
+}
+
+
+
+.topimage{               /*POSITION OF TOP IMAGE */
+position:absolute;
+left:0px;
+}
+.fun{                        /*ANIMATION FOR TEXT*/
+position:absolute;
+z-index:1;
+left:0px;                
+right:0px;
+animation-name:header;
+animation-duration:3s;
+}
+@keyframes header{
+
+0%{                         /*AT START POSITION FROM LEFT -600PX AFTER 3 SECONDS 0PX  */
+left:-600px;
+}
+100%
+{left:0px;
+} 
+}
+.navbar{
+background-color:#111;
+}
+
+
+
+
+
+
+
+
+
+
+.adjust{
+padding:11% 0 0 0;
+
+}
+
+
+
+
+
+
+
+.contact-form
+{
+    padding:25px 50px;
+}
+
+
+.ab{background-image:url(formbg.jpg);
+background-size:100% 100%;
+background-repeat:no-repeat;
+}
+
+
+.container{
+
+color:white;
+
+}

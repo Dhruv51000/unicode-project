@@ -1,0 +1,188 @@
+
+<html>
+
+<head>
+       
+	     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="contactus.css">
+
+</head>
+<body>
+
+<div class="fun" ><!--CLASS FOR ANIMATION -->
+<div class="random"><!--CLASS FOR POSITION OF LOGO AND HEADER-->
+<div class="toplogo" >
+<h4>THE OFFICIAL WEBSITE OF<span></br><font size="6">NORTHEAST TOURISM</font></span></h4><!--DIFFERENT FONT SIZE FOR NORTHEAST TOURISM-->
+</div></div>
+<div class="topimage">
+<img src="rhino.jpeg.jpg" height="100" width="100"><!--SIZE OF RHINO IMAGE-->
+</div>
+</div>
+
+
+<div class="a">
+<nav class="navbar "><!--navbar-->
+  <div class="container-fluid"><!--container for navbar-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><!--button to open navbar for less width and linked to id mynavbar-->
+        <span class="icon-bar"></span><!--SYMBOL for collapse-->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+   
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav"><!-- links to different pages of the site--> 
+        <li><a href="ne.html">HOME</a></li>
+        
+       <li><a href="atgfinal.html">AT A GLANCE</a></li>
+        <li><a href="toursss.html">TOURS</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+</div>
+
+
+
+
+
+<div class="adjust">
+<div class="ab">
+<div class="container"><!--CONTAINER -->
+  <h1>Get In Touch</h1><!--HEADER-->
+  
+
+
+  <div class="row"><!--ROWS -->
+    <div class="col-md-6"><!--COLUMNS TO BE USED FOR MEDIUM SIZE SCREEN BE 6 OUT OF 12-->
+      <div class="contact-form">
+        <div class="form-group">
+          <input type='text' placeholder="YourName" onkeypress="return isletter(event)" id="txt" class="form-control" required><!--checks on key press that input is not a number-->
+        </div>
+		  <div class="form-group">
+               <input class="btn btn-primary" onclick="abc()" type="submit" value="EDIT NAME"><!--on clicking edit button it erases the value entered in name-->
+		   
+              </div>
+		
+        <div class="form-group">
+            <input type='PhoneNo' placeholder="YourNumber" maxlength="10"  id="txt1" onkeypress="return isNumberKey(event)" class="form-control"><!--checks on key press that input is only a number-->
+        </div>
+        
+		    <div class="form-group">
+               <input class="btn btn-primary" type="submit" onclick="abcd()" value="EDIT NO"><!--on clicking edit button it erases the value entered in mobileno-->
+              </div>
+          <div class="form-group">
+              <input type='Email' placeholder="YourEmail" id="txt2"  class="form-control" >
+            </div>
+			  <div class="form-group">
+               <input class="btn btn-primary" onclick="abcde()" type="submit" value="EDIT E-mail"><!--on clicking edit button it erases the value entered in E-mail-->
+              </div>
+
+			  <div class="form-group">
+               <input class="btn btn-success" onclick ="allfieldsfilled();return iscorrectemail(event);"  type="submit" value="SUBMIT"><!--on clicking submit button it checks if E-mail is valid and all fields are filled i.e:name,email,mobileno-->
+			  
+</div>
+     </div>
+</div>
+
+
+<div class="col-md-6"><!--COLUMNS TO BE USED FOR MEDIUM SIZE SCREEN BE 6 OUT OF 12 -->
+  <div class="follow"><h3> <span class=" fas fa-map-marker-alt"></span> FindUsAt</span></h3><!--logo for location using font-awesome-->
+<h3>Plot 4,<br> Patel Nagar,<br>MG road,<br>Kandivali-West,<br>Mumbai- 400067.</h3></div>
+<br><br><!--next line-->
+  <h3><span class="fa fa-phone"> PhoneNumber</span></h3><!--logo for call using font-awesome-->
+  <h3>+ 91-9821139309<br>+91-9769647425</h3>
+  <br>
+  <h3><span class="fa fa-envelope"></span> E-mail:</h3>
+  <h3> DhruvTalati51000@gmail.com</h3>
+<br>
+
+
+<a href="#" ><span class="fab fa-facebook" style="font-size:50px; "></span> </a>
+<a href="#"><span class="fab fa-youtube" style="font-size:50px; color:red"></span> </a>
+<a href="#"><span class="fab fa-google-plus" style="font-size:50px ;color:white"></span> </a>
+      
+</div>
+</div>
+</div>
+</div>
+<script>
+	  function abc(){
+	  
+	  document.getElementById("txt").value="";
+	  }
+	  
+	  	  function abcd(){
+	  
+	  document.getElementById("txt1").value="";
+	  }
+	  	  function abcde(){
+	  
+	  document.getElementById("txt2").value="";
+	  }
+	  
+	 
+
+	 function iscorrectemail(e) {
+	   var x = document.getElementById("txt2").value;
+	   var atpos = x.indexOf("@");
+  var dotpos = x.lastIndexOf(".");
+	  
+	      if(atpos < 1 || (dotpos - atpos < 2))
+    {
+    alert("Please enter a valid e-mail address");
+    return false;
+  
+    }
+	}
+	  function isletter(e){
+	           var charCode =  event.keyCode
+         if ( (charCode > 47 && charCode < 58))
+            e.preventDefault();
+			
+			
+return true;
+	  
+	  }
+	  
+    function isNumberKey(e)
+
+      {
+         var charCode =  event.keyCode
+         if ( (charCode < 48 || charCode > 57))
+            e.preventDefault();
+			
+			
+return true;
+      }
+	  
+	  function allfieldsfilled(){
+	  
+	  
+	  if(document.getElementById("txt").value==""|| document.getElementById("txt1").value==""||document.getElementById("txt2").value=="" )
+	  {
+	 
+	  alert("Please fill all the fields");
+	  
+	  }
+	  
+	  }
+
+
+
+	  
+	  
+
+</script>
+
+</body>
+</html>

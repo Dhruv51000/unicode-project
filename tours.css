@@ -1,0 +1,242 @@
+.a{                            /*position for slides below the navbar ,from top:16.4% and width be 100%*/   
+  position:absolute;
+  top:17%;
+  width:100%;
+  height:10%;
+  
+  }
+  
+  li a:hover{                     /*on hovering on the list givse it a bold font and color of text as black z-index:1 gives it a priority over any other 
+                                   property having z-index less than 1*/
+  font-size:1.5em;
+  
+ font-weight:bold;
+ color:black;
+
+ z-index:1;
+  
+  }
+  #myNavbar{                      /*background transperent*/
+	 
+background-color:transparent;
+
+
+	  
+  }
+  
+  .icon-bar{                        /*a dashed line of black color*/
+	  z-index:1;
+	  background-color:black;
+	  
+  }
+  .navbar-toggle{                  /*the box around icon-bar with background-color:white*/
+	  background-color:white;
+	  
+  }
+  
+  .navbar {                        /*the rest of navbar except toggle given background-color:black*/
+	background-color:black;
+	color:white;
+
+	  
+  }
+
+  
+  li a{
+    display: block;
+
+  text-decoration: none;
+
+  font-size:1.5em;
+	 font-family:Arial;
+	 z-index:1;
+ font-weight:bold;
+ color:white;
+ 
+
+	
+  
+  }
+  
+  li{                                 /*no text-decoration font-family: arial and color of text:white*/
+	      display: block;
+  color: white;
+  text-decoration: none;
+  
+    font-size: 1em;
+	 font-family:Arial;
+	 z-index:1;
+	  
+  }
+  
+  .navbar{
+background-color:#111;
+}
+  
+  ul
+{
+  list-style-type: none;/*MARGIN AND PADDING FOR UNORDERED LIST*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+color:white;
+}
+
+li {                      /*TO THE LEFT*/
+  float: left;
+}
+  
+  .toplogo{position:absolute;   /*POSITION OF TOP LOGO*/  
+left:125px;
+top:0px;
+color:white;
+font-size:1vh;
+}
+
+
+
+
+  
+
+  .toplogo{position:absolute;   
+left:125px;
+top:0px;
+color:white;
+}
+
+
+span{               
+color:white;}
+.topimage{           
+position:absolute;
+top:0px;
+left:06px;
+}
+
+
+.site{                 /*COLOR */
+	color:white;
+	text-align:center;
+}
+
+
+
+
+
+
+.s1{
+position:absolute;
+top:170px;
+left:0px;
+right:1100px;
+
+height:100%;
+width:400px;
+}
+.random{
+height:100px;
+width:100%;
+background-color:green;
+}
+
+h3{                  /*POSITION OF TEXT ON BACKGROUND IMAGE*/
+position:absolute;
+top:28%;
+left:37%;
+color:white;
+
+}
+
+.topimage{               /*POSITION OF TOP IMAGE */
+position:absolute;
+left:0px;
+}
+.fun{                        /*ANIMATION FOR TEXT*/
+position:absolute;
+z-index:1;
+left:0px;                
+right:0px;
+animation-name:header;
+animation-duration:3s;
+}
+@keyframes header{
+
+0%{                         /*AT START POSITION FROM LEFT -600PX AFTER 3 SECONDS 0PX  */
+left:-600px;
+}
+100%
+{left:0px;
+} 
+}
+.navbar{
+background-color:#202020;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.flip-card {          /*styling of flip card*/
+  background-color: transparent;
+  width: 300px;
+  height: 390px;
+  perspective: 1000px;
+  text-align:center;
+  margin:20px;
+  
+}
+
+.flip-card-inner {                            /*take 0.6 seconds to rotate by 180 degree  */ 
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.6s;
+ 
+  
+  
+}
+
+.flip-card:hover .flip-card-inner {            /*on hover rotate by 180 degree*/
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {            /*donot show the content of back page*/
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  
+}
+
+.flip-card-front {               
+
+  color: black;
+}
+
+.flip-card-back {
+
+     width: 300px;
+  height: 390px;
+  background-color:#202020;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card img{
+  width: 300px;
+  height: 390px;
+  
+}
+
+body{
+background-color:	#111;
+}
+
+.abc{
+position:absolute;
+top:29%;
+left:7%;
+}

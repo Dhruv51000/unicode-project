@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+<style>
+.a{
+  position:absolute;
+  top:17%;
+  width:100%;
+  height:10%;
+  
+  }
+  
+  li a:hover{
+  font-size:1.5em;
+  
+ font-weight:bold;
+ color:black;
+
+ z-index:1;
+  
+  }
+  #myNavbar{
+	 
+background-color:transparent;
+
+
+	  
+  }
+  
+  .icon-bar{
+	  z-index:1;
+	  background-color:black;
+	  
+  }
+  .navbar-toggle{
+	  background-color:white;
+	  
+  }
+  
+  .navbar {
+	background-color:black;
+	color:white;
+
+	  
+  }
+
+  
+  li a{
+    display: block;
+
+  text-decoration: none;
+
+  font-size:1.5em;
+	 font-family:Arial;
+	 z-index:1;
+ font-weight:bold;
+ color:white;
+ 
+
+	
+  
+  }
+  
+  li{
+	      display: block;
+  color: white;
+  text-decoration: none;
+  
+    font-size: 1em;
+	 font-family:Arial;
+	 z-index:1;
+	  
+  }
+  
+  .navbar{
+background-color:#111;
+}
+  
+  ul
+{
+  list-style-type: none;<!--MARGIN AND PADDING FOR UNORDERED LIST-->
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+color:white;
+}
+
+li {                      <!--TO THE LEFT-->
+  float: left;
+}
+  
+  .toplogo{position:absolute;   <!--POSITION OF TOP LOGO-->  
+left:125px;
+top:0px;
+color:white;
+font-size:1vh;
+}
+
+
+
+
+  
+
+  .toplogo{position:absolute;   
+left:125px;
+top:0px;
+color:white;
+}
+
+
+span{               
+color:white;}
+.topimage{           
+position:absolute;
+top:0px;
+left:06px;
+}
+
+
+.site{                <!--COLOR -->
+	color:white;
+	text-align:center;
+}
+
+
+
+
+
+
+.s1{
+position:absolute;
+top:170px;
+left:0px;
+right:1100px;
+
+height:100%;
+width:400px;
+}
+.random{
+height:100px;
+width:100%;
+background-color:green;
+}
+
+h3{                  <!--POSITION OF TEXT ON BACKGROUND IMAGE-->
+position:absolute;
+top:28%;
+left:37%;
+color:white;
+
+}
+
+.topimage{               <!--POSITION OF TOP IMAGE -->
+position:absolute;
+left:0px;
+}
+.fun{                        <!--ANIMATION FOR TEXT-->
+position:absolute;
+z-index:1;
+left:0px;                
+right:0px;
+animation-name:header;
+animation-duration:3s;
+}
+@keyframes header{
+
+0%{                         <!--AT START POSITION FROM LEFT -600PX AFTER 3 SECONDS 0PX  -->
+left:-600px;
+}
+100%
+{left:0px;
+} 
+}
+.navbar{
+background-color:#202020;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 390px;
+  perspective: 1000px;
+  text-align:center;
+  margin:20px;
+  
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+ 
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+
+     width: 300px;
+  height: 390px;
+  background-color:#202020;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card img{
+  width: 300px;
+  height: 390px;
+  
+}
+
+body{
+background-color:	#111;
+}
+
+.abc{
+position:absolute;
+top:29%;
+left:7%;
+}
+
+</style>
+</head>
+<body>
+
+<div class="fun" >
+<div class="random">
+<div class="toplogo" >
+<h4>THE OFFICIAL WEBSITE OF<span></br><font size="6">NORTHEAST TOURISM</font></span></h4>
+</div></div>
+<div class="topimage">
+<img  src="rhino.jpeg.jpg" height="100px" width="100px">
+</div>
+</div>
+
+<div class="a">
+<nav class="navbar ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+   
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="ne.html">HOME</a></li>
+        
+       <li><a href="atgfinal.html">AT A GLANCE</a></li>
+        <li><a href="toursss.html">TOURS</a></li>
+        <li><a href="contactus.html">CONTACT US</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+</div>
+
+<div class="abcd">
+<div class="abc">
+<div class="row">
+<div class="col-lg-4">
+<h1> </h1>
+<h3></h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="tour1.jpg" alt="Avatar" >
+    </div>
+    <div class="flip-card-back">
+      
+      <h1>7 DAY ENCHANTING</h1><h1> NORTHEAST </h1><h1>VISIT ASSAM</h1> 
+	  <h1>@ $550</h1>
+	  <br>
+	    <input class="btn btn-primary" type="submit" value="BOOK NOW">
+	  
+    
+    </div>
+  </div>
+</div></div>
+
+<div class="col-lg-4">
+<h1></h1>
+<h3></h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="tour2.jpg" alt="Avatar" >
+    </div>
+    <div class="flip-card-back">
+<h1>10 DAY ENCHANTING</h1><h1> NORTHEAST </h1><h1>VISIT SIKKIM</h1> 
+	  <h1>@ $500</h1>
+	  <br>
+	  <input class="btn btn-primary" type="submit" value="BOOK NOW">
+    </div>
+  </div>
+</div></div>
+
+<div class="col-lg-4">
+<h1></h1>
+<h3></h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="tour3.jpg" alt="Avatar" >
+    </div>
+    <div class="flip-card-back">
+      <h1>10 DAY ENCHANTING</h1><h1> NORTHEAST </h1><h1>VISIT SIKKIM</h1> 
+	  <h1>@ $500</h1>
+	  <br>
+	  <input class="btn btn-primary" type="submit" value="BOOK NOW">
+    </div>
+  </div>
+</div></div>
+
+</div>
+
+
+<div class="row">
+<div class="col-lg-4">
+<h1></h1>
+<h3></h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="tour4.jpg" alt="Avatar" >
+    </div>
+    <div class="flip-card-back">
+      <h1>7 DAY ENCHANTING</h1><h1> NORTHEAST </h1><h1>VISIT ASSAM</h1> 
+	  	  <h1>@ $500</h1>
+		  <br>
+	  <input class="btn btn-primary" type="submit" value="BOOK NOW">
+    </div>
+  </div>
+</div></div>
+
+<div class="col-lg-4">
+<h1></h1>
+<h3></h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="tour5.jpg" alt="Avatar">
+    </div>
+    <div class="flip-card-back">
+      <h1>7 DAY ENCHANTING</h1><h1> NORTHEAST </h1><h1>VISIT MEGHALYA</h1> 
+	  	  <h1>@ $500</h1>
+		  <br>
+	  <input class="btn btn-primary" type="submit" value="BOOK NOW">
+    </div>
+  </div>
+</div></div>
+
+<div class="col-lg-4">
+<h1></h1>
+<h3></h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="img2.jpg" alt="Avatar" >
+    </div>
+    <div class="flip-card-back">
+      <h1>7 DAY ENCHANTING</h1><h1> NORTHEAST </h1><h1>VISIT MANIPUR</h1> 
+	  	  <h1>@ $500</h1>
+		  <br>
+	  <input class="btn btn-primary" type="submit" value="BOOK NOW">
+    </div>
+  </div>
+</div></div>
+
+</div>
+
+
+</body>
+</html>
